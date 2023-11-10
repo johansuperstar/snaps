@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET KLAR */
+
+/* -----------------------
+		Body
+------------------------*/
+
+body {
+	background-image: url('krafta.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+	font-family: serif;
+	color: #222;
+}
+
+
+/* -----------------------
+		Container 
+------------------------*/
+
+#container {
+	max-width: 1200px;
+	padding-top: 2em;
+	margin: 0 auto;
+}
+
+
+/* -----------------------
+		Header 
+------------------------*/
+
+header {
+	margin-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+header h1 {
+	margin-bottom: 1em;
+}
+
+header ul {
+	border-bottom: 1px dotted #999;
+	padding-bottom: 1em;
+	width: 100%;
+}
+
+header ul li {
+	padding: 4px 0px 4px 10px;
+}
+
+header ul li a {
+	color: #3366CC;
+	text-decoration: none;
+}
+
+
+/* -----------------------
+		Headings 
+------------------------*/
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 3px;
+}
+
+h3 {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #555;
+}
+
+
+/* -----------------------
+		Paragraphs 
+------------------------*/
+
+p {
+	font-size: 0.8em;
+	margin-bottom: 1em;
+	line-height: 1.4em;
+}
+
+
+/* -----------------------
+		Article
+------------------------*/
+
+article {
+	margin-bottom: 2em;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline-block; /* För att förhindra att dela upp en snapsvisa i fler kolumner */
+}
+
+
+/* -----------------------
+		Media queries
+-------------------------*/
+
+@media (min-width: 768px) {
+	#container {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media (min-width: 1024px) {
+	#container {
+		-moz-column-count: 3;
+		-webkit-column-count: 3;
+		column-count: 3;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
